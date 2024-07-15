@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- FIM GOOGLE FONTS -->
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- FIM ICONS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+    <title>Kevin Cruzz</title>
+</head>
+
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#"></a>
+                <img src="images/logo.png" alt="Logo">
+            </div><!--logotipo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#especiality">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portfolio">Projetos</a></li>
+                </ul>
+            </nav>
+
+
+            <div class="kvn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div><!--btn-fechar-->
+                <nav>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#especiality">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#portfolio">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </div><!--interface-->
+    </header>
+    <main>
+        <section id="home" class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-top-site">
+                        <h1>KEVIN CRUZZ - ESTUDANTE DE DESENVOLVIMENTO DE SISTEMAS<span>.</span></h1>
+                        <p>"Portfólio de Kevin Cruzz, um apaixonado por tecnologia e programação. Explore meus projetos
+                            para ver como posso contribuir com soluções inovadoras e eficazes no campo do
+                            desenvolvimento de sistemas."</p>
+                        <div class="kvn-contato">
+                            <a href="#form">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+                    <div class="img-topo-site">
+                        <img src="images/perfil.png" alt="">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section id="especiality" class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-browser-chrome"></i>
+                        <h3>Web Site</h3>
+                        <p>A criação de sites é uma das minhas paixões. Tenho experiência em HTML, CSS e JavaScript para
+                            construir páginas web atraentes e funcionais. Com foco na responsividade, garanto que os
+                            sites que desenvolvo se adaptam bem a diferentes dispositivos e tamanhos de tela. Meu
+                            objetivo é sempre proporcionar uma ótima experiência ao usuário através de interfaces
+                            intuitivas e designs modernos.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Desenvolvimento de Sistemas</h3>
+                        <p>Estou me especializando em desenvolvimento de sistemas, onde aplico meus conhecimentos em
+                            linguagens como Python e JavaScript. Tenho experiência em criar APIs RESTful, integrar
+                            bancos de dados e desenvolver aplicações web completas. Embora esteja no início da minha
+                            jornada, estou constantemente aprendendo e aprimorando minhas habilidades para desenvolver
+                            soluções eficientes e robustas.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-file-code-fill"></i>
+                        <h3>Projetos Academicos</h3>
+                        <p>Durante minha formação em Análise e Desenvolvimento de Sistemas, participei de diversos
+                            projetos acadêmicos que me permitiram colocar em prática os conhecimentos adquiridos. Esses
+                            projetos variam desde a criação de pequenos aplicativos até sistemas mais complexos, sempre
+                            buscando resolver problemas reais e aprimorar minhas habilidades técnicas. Esses trabalhos
+                            são fundamentais para meu desenvolvimento como profissional na área de TI.</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especialidades-->
+
+        <section id="sobre" class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/corpo.png" alt="imagem-sobre">
+                    </div><!--img-sobre-->
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU KEVIN CRUZZ.</span></h2>
+                        <p>
+                            <Tarea></Tarea>Tenho 29 anos e sou natural de São Paulo, mas atualmente moro em Minas
+                            Gerais, a terra do pão
+                            de queijo.
+                            Trabalho como técnico em informática e assistência técnica de celulares, e desde sempre
+                            tenho uma paixão pela tecnologia. Atualmente, estou cursando Análise e Desenvolvimento de
+                            Sistemas e decidi me especializar nessa área. Estou adorando essa jornada e, desde meu
+                            primeiro contato com a programação, percebi que é isso que quero para minha vida
+                            profissional.
+                        </p>
+                        <p>Além da faculdade, estou estudando de forma autodidata algumas linguagens de programação,
+                            como Python e JavaScript, com o objetivo de me tornar um desenvolvedor full stack. Embora eu
+                            tenha um grande interesse pela parte de back-end, o front-end também me chama a atenção.</p>
+
+                        <p>Minha meta é continuar me aprofundando e expandindo meu conhecimento em programação, na
+                            esperança de obter uma oportunidade de ingressar em uma empresa e ganhar mais experiência na
+                            área.</p>
+
+                        <p>Tenho alguns projetos que desenvolvi e estão disponíveis no meu GitHub, e também compartilho
+                            minhas experiências e projetos no meu canal do TikTok. Fique à vontade para conferir!</p>
+                        <div class="kvn-social">
+                            <a href="https://github.com/kevinkruzz" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/kevinkruzz/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://www.tiktok.com/@kevincruzz.dev" target="_blank"><button><i class="bi bi-tiktok"></i></button></a>
+                            <a href="https://www.instagram.com/eukevincruzz/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div>
+        </section><!--sobre-->
+
+        <section id="portfolio" class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section id="form" class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <a href="#home">
+                            <img src="images/logo.png" alt="">
+                            </a>
+                            
+                    </div><!--logo-footer-->
+                    <div class="kvn-social">
+                        <a href="https://github.com/kevinkruzz" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/kevinkruzz/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://www.tiktok.com/@kevincruzz.dev" target="_blank"><button><i class="bi bi-tiktok"></i></button></a>
+                        <a href="https://www.instagram.com/eukevincruzz/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                    </div><!--btn-social-->
+                </div><!--flex-->
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:dev.kevincruzz@gmail.com">dev.kevincruzz@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+</body>
+
+</html>
