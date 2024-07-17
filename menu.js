@@ -13,3 +13,12 @@ menu.addEventListener('click', ()=>{
 overlay.addEventListener('click', ()=>{
     menu.classList.remove('abrir-menu')
 })
+
+document.getElementById('par-perfeito').addEventListener('click', function() {
+    var imageUrl = getComputedStyle(this).backgroundImage.slice(5, -2);
+    window.open(imageUrl, '_blank');
+});
+document.getElementById('gerador').addEventListener('click', function() {
+    var imageUrl = getComputedStyle(this).backgroundImage.slice(5, -2);
+    window.open(imageUrl, '_blank');
+});

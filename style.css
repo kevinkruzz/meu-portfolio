@@ -38,9 +38,7 @@ button:hover, form .btn-enviar input:hover{
     box-shadow: 0px 0px 8px rgb(252, 158, 18); ;
     transform: scale(1.07);
 }
-p{
-    text-align: justify;
-}
+
 /* ESTILO DO CABEÇALHO */
 header{
     padding: 40px 4%;
@@ -50,7 +48,14 @@ header .logo{
     box-shadow: 1px 1px 20px 1px rgb(252, 158, 18);
     border-radius: 30px;
     padding: 2px;
-    height: 140px;
+    width: 130px;
+    height: 120px;
+    margin-left: 100px;
+}
+header .logo img{
+    padding-left: 3px;
+    width: 110px;
+    height:110px;
 }
 header > .interface{
     display: flex;
@@ -185,11 +190,12 @@ section.especialidades .flex{
 }
 .especialidades .especialidades-box{
     color: white;
-    padding: 40px;
+    padding:15px;
     border-radius: 20px;
     margin-top: 45px;
     transition: .2s;
 }
+
 .especialidades .especialidades-box:hover{
     transform: scale(1.07);
     box-shadow: 0 0 17px rgba(255, 255, 255, 0.521);
@@ -202,6 +208,7 @@ section.especialidades .flex{
     font-size: 28px;
     margin: 15px 0;
 }
+
 
  /*ESTILO SOBRE*/
  .sobre .img-sobre img{
@@ -262,6 +269,15 @@ section.portfolio .flex{
     cursor: pointer;
     border-radius: 30px;
     position: relative;
+}
+
+#par-perfeito {
+    background-size: 110%;
+    background-position: center;
+}
+#gerador {
+    background-size: 110%;
+    background-position: center;
 }
 
 .img-port:hover{
@@ -422,6 +438,7 @@ footer .logo-footer img{
         padding: 20px;
         margin-top: 10px;
     }
+
     /*SOBRE*/
 
     .sobre .img-sobre img{
