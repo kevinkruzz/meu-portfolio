@@ -403,6 +403,7 @@ footer .logo-footer img{
         box-shadow: 1px 1px 20px 1px rgb(252, 158, 18);
         border-radius: 30px;
         padding: 2px;
+        margin-left: 10px;
     }
     /*CABEÇALHO*/
     .menu-desktop, .kvn-contato {
@@ -437,6 +438,13 @@ footer .logo-footer img{
 
         padding: 20px;
         margin-top: 10px;
+    }
+    .especialidades .especialidades-box h3{
+
+        text-align: center;
+    }
+    section.especialidades  .especialidades-box ,i{
+        text-align: center;
     }
 
     /*SOBRE*/
