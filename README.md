@@ -1,1 +1,1 @@
-![Screenshot 2024-07-16 22 38 30](https://github.com/user-attachments/assets/3a8698ef-bae3-4a1d-a867-10df373b9c50)
+![screencapture-kevinkruzz-github-io-meu-portfolio-2024-07-21-21_00_11](https://github.com/user-attachments/assets/7e563d7f-5367-4078-85c1-7f0d3ee5c1f4)
